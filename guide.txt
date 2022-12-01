@@ -1,0 +1,12 @@
+-> ng new ng-video-game-db --style=scss
+-> ng serve -o
+-> ng add @angular/material
+    - Deep Purple/Amber [theme]
+-> npm i angular-gauge
+
+# step 2
+-> import all the modules in app-module.ts
+-> create folder in app folder
+    > mkdir component
+-> create all the component in component folder
+    > ng g c search-bar
