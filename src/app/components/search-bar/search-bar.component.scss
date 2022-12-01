@@ -26,6 +26,10 @@
     border-bottom-left-radius: 5px;
     outline: none;
     border: none;
+
+    @media (max-width: 391px) {
+      width: 200px;
+    }
   }
 
   &-button {
@@ -55,4 +59,20 @@
   font-weight: 700;
   cursor: pointer;
   text-decoration: none;
+
+  @media (max-width: 463px) {
+    display: none;
+  }
+}
+
+.name {
+  margin-left: 10px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 25px;
+
+  @media (max-width: 784px) {
+    display: none;
+  }
 }
