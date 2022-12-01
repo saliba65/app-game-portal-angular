@@ -1,15 +1,22 @@
-# NgVideoGameDb
+# App-Game-Portal-Angular
 
-A game database made with Angular that uses RAWG Video Games Database to fetch game data for over 350,000 games for 50 platforms, including mobiles, from Rapid API. Game sorting, in-app trailer play, screenshots, dynamically generated game pages, and a gauge to show game rating are all features replicated from the original gaming platforms.
+Um banco de dados de jogos feito com Angular que usa RAWG Video Games Database para buscar dados de jogos para mais de 350.000 jogos para 50 plataformas, incluindo celulares, da Rapid API. Classificação de jogos, reprodução de trailer no aplicativo, capturas de tela, páginas de jogos geradas dinamicamente e um medidor para mostrar a classificação do jogo são todos recursos replicados das plataformas de jogos originais.
 
-## Development server
+## Como executar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Primeiramente, é necessário possuir o Angular instalado na sua máquina. 
+Execute o comando `npm install -g @angular/cli` via terminal. 
 
-## Code scaffolding
+Agora realize um clone do projeto via `HTTPS` ou `SSH`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Via terminal, estando dentro da pasta do projeto, execute o comando `npm install` para instalar as dependências da aplicacao. 
+
+Finalmente, execute `ng serve` para um servidor de desenvolvimento. 
+
+Abra o navegador em `http://localhost:4200/`. O aplicativo será recarregado automaticamente.
+
+Você também pode executar o comando `ng serve --port 4200` para executar em uma porta específica. 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute `ng build` para compilar o projeto. Os artefatos de compilação serão armazenados no diretório `dist/`.
