@@ -1,6 +1,6 @@
 <div class="filters">
   <mat-form-field>
-    <mat-label>Sort</mat-label>
+    <mat-label>Relevant</mat-label>
     <mat-select
       panelClass="sort-select"
       [(ngModel)]="sort"
@@ -10,9 +10,7 @@
       <mat-option value="-released">Released</mat-option>
       <mat-option value="-added">Added</mat-option>
       <mat-option value="-created">Created</mat-option>
-      <mat-option value="-updated">Updated</mat-option>
       <mat-option value="-rating">Rating</mat-option>
-      <mat-option value="metacritic">Metacritic</mat-option>
     </mat-select>
   </mat-form-field>
 </div>
@@ -31,6 +29,8 @@
       </div>
       <div class="game-description">
         <p class="game-name">{{ game.name }}</p>
+        <p class="game-info">Rating: {{ game.metacritic }}</p>
+        <p class="game-info">Release: {{ game.released | date }}</p>
         <div class="game-platforms">
           <img
             *ngFor="let gamePlatform of game.parent_platforms"

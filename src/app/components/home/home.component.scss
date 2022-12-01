@@ -18,7 +18,7 @@
   }
 
   .mat-form-field-infix {
-    border-color: #fff !important ;
+    border-color: #fff !important;
     border-top: none;
     padding-left: 5px !important;
   }
@@ -85,7 +85,15 @@
     color: #fff;
     font-weight: 700;
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &-info {
+    color: #fff;
+    font-size: 14px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
