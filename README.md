@@ -20,3 +20,7 @@ Você também pode executar o comando `ng serve --port 4200` para executar em um
 ## Build
 
 Execute `ng build` para compilar o projeto. Os artefatos de compilação serão armazenados no diretório `dist/`.
+
+![home](https://github.com/saliba65/app-game-portal-angular/blob/ea8e33a23b42aefdd5d8830215d4876d72ffacc1/src/assets/readme/home.png)
+![fifa](https://github.com/saliba65/app-game-portal-angular/blob/ea8e33a23b42aefdd5d8830215d4876d72ffacc1/src/assets/readme/fifa.png)
+![injustice](https://github.com/saliba65/app-game-portal-angular/blob/ea8e33a23b42aefdd5d8830215d4876d72ffacc1/src/assets/readme/injustice.png)
